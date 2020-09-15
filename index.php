@@ -1,9 +1,9 @@
 <?php
 if(isset($_POST["submit"])){
 
- $name=$_POST['name'];
+ $name=$_POST['saikumar'];
  
- $email=$_POST['email'];
+ $email=$_POST['psritservices'];
  
 $servername = "localhost";
 $username = "root";
