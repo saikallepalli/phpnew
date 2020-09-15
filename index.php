@@ -1,9 +1,9 @@
 <?php
 if(isset($_POST["submit"])){
 
- $name=$_POST['saikumar'];
+ $name=$_POST['name'];
  
- $email=$_POST['psritservices'];
+ $email=$_POST['email'];
  
 $servername = "localhost";
 $username = "root";
@@ -126,10 +126,10 @@ $conn->close();
 }
 body {
   background: #76b852; /* fallback for old browsers */
-  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
-  background: -moz-linear-gradient(right, #76b852, #8DC26F);
-  background: -o-linear-gradient(right, #76b852, #8DC26F);
-  background: linear-gradient(to left, #76b852, #8DC26F);
+  background: -webkit-linear-gradient(right, #FF0000, #8DC26F);
+  background: -moz-linear-gradient(right, #76b852, #FF0000);
+  background: -o-linear-gradient(right, #FF0000, #8DC26F);
+  background: linear-gradient(to left, #76b852, #FF0000);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
