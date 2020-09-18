@@ -1,9 +1,9 @@
 <?php
 if(isset($_POST["submit"])){
 
- $name=$_POST['name'];
+ $name=$_POST['names'];
  
- $email=$_POST['email'];
+ $email=$_POST['emails'];
  
 $servername = "localhost";
 $username = "root";
@@ -145,9 +145,9 @@ body {
   <div class="form">
     
     <form class="login-form">
-      <input type="text" name="name" id="name" placeholder="name"/>
+      <input type="text" name="name" id="name" placeholder="names"/>
       
-      <input type="email" name="email" id="email" placeholder="email"/>
+      <input type="email" name="email" id="email" placeholder="emails"/>
 	 <input type="submit" name="submit" id="submit" value="submit"/>
       
       
