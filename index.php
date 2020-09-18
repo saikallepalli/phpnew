@@ -1,9 +1,9 @@
 <?php
 if(isset($_POST["submit"])){
 
- $name=$_POST['names'];
+ $name=$_POST['name'];
  
- $email=$_POST['emails'];
+ $email=$_POST['email'];
  
 $servername = "localhost";
 $username = "root";
@@ -125,7 +125,7 @@ $conn->close();
   color: #EF3B3A;
 }
 body {
-  background: #FF5733; /* fallback for old browsers */
+  background: #0039DD; /* fallback for old browsers */
   background: -webkit-linear-gradient(right, #FF0000, #FF5733);
   background: -moz-linear-gradient(right, #FF0000, #FF0000);
   background: -o-linear-gradient(right, #FF0000, #FF0000);
@@ -145,9 +145,9 @@ body {
   <div class="form">
     
     <form class="login-form">
-      <input type="text" name="name" id="name" placeholder="names"/>
+      <input type="text" name="name" id="name" placeholder="name"/>
       
-      <input type="email" name="email" id="email" placeholder="emails"/>
+      <input type="email" name="email" id="email" placeholder="email"/>
 	 <input type="submit" name="submit" id="submit" value="submit"/>
       
       
