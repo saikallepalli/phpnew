@@ -126,10 +126,10 @@ $conn->close();
 }
 body {
   background: #FF5733; /* fallback for old browsers */
-  background: -webkit-linear-gradient(right, #FF0000, #8DC26F);
+  background: -webkit-linear-gradient(right, #FF0000, #FF5733);
   background: -moz-linear-gradient(right, #76b852, #FF0000);
   background: -o-linear-gradient(right, #FF0000, #8DC26F);
-  background: linear-gradient(to left, #76b852, #FF0000);
+  background: linear-gradient(to left, #FF5733, #FF5733);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
