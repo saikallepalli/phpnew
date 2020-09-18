@@ -128,7 +128,7 @@ body {
   background: #0039DD; /* fallback for old browsers */
   background: -webkit-linear-gradient(right, #0039DD, #FF5733);
   background: -moz-linear-gradient(right, #0039DD, #FF0000);
-  background: -o-linear-gradient(right, #0039DD, #FF0000);
+  background: -o-linear-gradient(right, #0039DD, #FF5733);
   background: linear-gradient(to left, #FF5733, #FF5733);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
