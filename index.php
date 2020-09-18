@@ -125,7 +125,7 @@ $conn->close();
   color: #EF3B3A;
 }
 body {
-  background: #76b852; /* fallback for old browsers */
+  background: #FF5733; /* fallback for old browsers */
   background: -webkit-linear-gradient(right, #FF0000, #8DC26F);
   background: -moz-linear-gradient(right, #76b852, #FF0000);
   background: -o-linear-gradient(right, #FF0000, #8DC26F);
